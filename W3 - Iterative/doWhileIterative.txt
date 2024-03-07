@@ -1,0 +1,5 @@
+do
+{
+    (ini dieksekusi dulu);
+}
+while (statement ini dicek. kalo bener, diulang);

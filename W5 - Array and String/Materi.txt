@@ -1,0 +1,15 @@
+Char: 'A', '_', etc.
+String: "ABCD"
+deklarasi string:
+    char sNama[30] = "Yoga";
+    Y o g a \0
+    0 1 2 3 4
+
+    char month[12][10] = {"January", "February", ...}
+    -> ada 12 baris, 12 bulan & ada 10 karakter/kolom
+
+null harus diinsert di setiap string -> end of string
+
+printf -> baca dari awal sampai null
+placeholder: %8s -> ada 8 karakter
+cara baca: scanf("%s", string) -> tidak perlu pakai '&' karena sudah merupakan pointer alamat

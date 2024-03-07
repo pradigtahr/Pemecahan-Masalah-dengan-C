@@ -1,0 +1,6 @@
+/*
+    tipe_data nama_var[][]...           deklarasi di C, dimensi array bisa berapa aja
+
+    nama_var[][]...= value
+    
+*/

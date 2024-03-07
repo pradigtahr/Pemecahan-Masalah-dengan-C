@@ -1,0 +1,51 @@
+Basic Array Access:
+Create an array named numbers with elements {2, 5, 8, 12, 15}.
+Print the third element of the array.
+
+Array Initialization and Looping:
+
+Declare an array grades to store 5 student grades.
+Initialize the array with values entered by the user using a loop.
+Calculate and print the average grade.
+
+Two-dimensional Array:
+
+Create a 2D array named matrix with dimensions 3x3 (3 rows, 3 columns).
+Populate the matrix with random numbers between 1 and 10.
+Print the matrix.
+
+Array Manipulation:
+
+Given an array of integers, reverse the elements in the array without using another array.
+For example, if the array is {4, 7, 1, 9, 2}, after manipulation, it should become {2, 9, 1, 7, 4}.
+
+Array Sorting:
+
+Implement a sorting algorithm (e.g., bubble sort or selection sort) to sort an array of integers in ascending order.
+Test your sorting function with an array of your choice.
+
+Array Search:
+
+Write a program that searches for a specific value in an array.
+Allow the user to input the value to search for.
+Print whether the value was found and its index if present.
+
+Nested Loop Patterns:
+
+Using nested loops, print a pattern of stars in the shape of a right-angled triangle.
+Allow the user to specify the height of the triangle.
+
+Multidimensional Array Manipulation:
+
+Create a 2D array to represent a chessboard (8x8).
+Place a black pawn at the position (2, 3).
+Print the updated chessboard.
+Advanced Array Operations:
+
+Implement a function that calculates the dot product of two arrays of integers.
+Test your function with arrays of your choice.
+
+Array and String Integration:
+
+Declare an array of strings to store the names of 5 cities.
+Print the names in alphabetical order.
