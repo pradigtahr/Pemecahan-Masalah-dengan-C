@@ -12,7 +12,7 @@ void bukaToko(char namaKue[5][20], int hargaPokok[5], int hargaJual[5]){
     printf("BUKA TOKO\n");
     for (int i = 0; i < 5; i++){
         printf("Masukkan jenis ke-%d> ", i+1);
-        scanf("%s%d%d", &namaKue[i], &hargaPokok[i], &hargaJual[i]);
+        scanf("%s%d%d", namaKue[i], &hargaPokok[i], &hargaJual[i]); // string sudah dalam bentuk 
     }
     strcpy(namaKue[5], "");
 }
