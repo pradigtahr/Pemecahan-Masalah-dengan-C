@@ -1,0 +1,155 @@
+<mxfile host="Electron" modified="2024-03-09T03:49:56.368Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="IIp-1vMH25KAfzNRjWpl" version="23.1.5" type="device">
+  <diagram name="Page-1" id="Qz_ZhkEUkmSTKMvfffAE">
+    <mxGraphModel dx="2002" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-1" value="hitungDurasiIstirahat(jam_masuk, menit_masuk, jam_keluar, menit_keluar, *total_jam, *total_menit)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-2" target="fGrcY3Q_agMODw4OWnMs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-14" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fGrcY3Q_agMODw4OWnMs-13">
+          <mxGeometry x="-0.07" y="1" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-2" value="menit_keluar &amp;gt;= menit_masuk&lt;br&gt;&amp;amp;&amp;amp; jam_keluar &amp;gt;= jam_masuk ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295" y="160" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-2" target="fGrcY3Q_agMODw4OWnMs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-1" target="fGrcY3Q_agMODw4OWnMs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-5" target="fGrcY3Q_agMODw4OWnMs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-18" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fGrcY3Q_agMODw4OWnMs-17">
+          <mxGeometry x="-0.0826" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-5" value="menit_keluar &amp;lt; menit_masuk&lt;br&gt;&amp;amp;&amp;amp; jam_keluar &amp;gt;= jam_masuk ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295" y="410" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-6" target="fGrcY3Q_agMODw4OWnMs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-23" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fGrcY3Q_agMODw4OWnMs-22">
+          <mxGeometry x="-0.1624" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-6" value="menit_keluar &amp;gt;= menit_masuk&lt;br&gt;&amp;amp;&amp;amp; jam_keluar &amp;lt; jam_masuk ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295" y="650" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-7" target="fGrcY3Q_agMODw4OWnMs-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-29" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fGrcY3Q_agMODw4OWnMs-26">
+          <mxGeometry x="-0.0028" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-7" target="fGrcY3Q_agMODw4OWnMs-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-30" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fGrcY3Q_agMODw4OWnMs-28">
+          <mxGeometry x="-0.3222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-7" value="menit_keluar &amp;lt; menit_masuk&lt;br&gt;&amp;amp;&amp;amp; jam_keluar &amp;lt; jam_masuk ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295" y="890" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-2" target="fGrcY3Q_agMODw4OWnMs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-15" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fGrcY3Q_agMODw4OWnMs-8">
+          <mxGeometry x="-0.3679" y="1" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-5" target="fGrcY3Q_agMODw4OWnMs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-19" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fGrcY3Q_agMODw4OWnMs-9">
+          <mxGeometry x="-0.1741" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-6" target="fGrcY3Q_agMODw4OWnMs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-24" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fGrcY3Q_agMODw4OWnMs-10">
+          <mxGeometry x="-0.3222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1250" as="targetPoint" />
+            <mxPoint x="-540" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="260" />
+              <mxPoint x="-60" y="1250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-11" value="*menit = menit_keluar - menit_masuk&lt;br&gt;*jam = jam_keluar - jam_masuk" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="220" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1240" as="targetPoint" />
+            <mxPoint x="-10" y="499.9999999999999" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="500" />
+              <mxPoint x="-50" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-16" value="*menit = menit_keluar + 60 - menit_masuk&lt;br&gt;*jam = jam_keluar - jam_masuk" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="470" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1230" as="targetPoint" />
+            <mxPoint x="-20.05" y="749.97" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-39" y="750" />
+              <mxPoint x="-39" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-20" value="*menit = menit_keluar - menit_masuk&lt;br&gt;*jam = jam_keluar + 24 - jam_masuk" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="710" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="990" />
+              <mxPoint x="-30" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-25" value="*menit = menit_keluar + 60 - menit_masuk&lt;br&gt;*jam = jam_keluar + 23 - jam_masuk" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="950" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fGrcY3Q_agMODw4OWnMs-27" target="fGrcY3Q_agMODw4OWnMs-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-27" value="*menit = menit_keluar + 60 - menit_masuk&lt;br&gt;*jam = jam_keluar + 23 - jam_masuk" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1130" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fGrcY3Q_agMODw4OWnMs-31" value="return *jam, *menit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1270" width="240" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
