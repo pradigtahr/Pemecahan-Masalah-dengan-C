@@ -1,11 +1,3 @@
-/*EL2208 Praktikum Pemecahan Masalah dengan C 2023/2024
-*TP Modul         : 3
-*Hari dan Tanggal : Senin, 11 Maret 2024 
-*Nama (NIM)       : Pradigta Hisyam Ramadhan (18322008)
-*Nama File        : tp-03-soalPemrograman.c
-*Deskripsi        : Program digunakan untuk menampilkan nama dari sebuah file web.txt
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -33,7 +25,7 @@ int main(void) {
     printf("Web praktikum:\n");
 
     // Deklarasi variabel untuk menyimpan array of strings dan panjang baris. 
-    char lines[MAX_LINE][255];
+    char *lines[MAX_LINE];
     int lineCount = 0;  // Pada akhir iterasi, nilai lineCount akan sama dengan panjang baris
 
     // Membaca semua baris dan simpan nilainya ke dalam array
@@ -43,7 +35,8 @@ int main(void) {
         if (len > 0 && buffer[len - 1] == '\n') {
             buffer[len - 1] = '\0';
         }
-        // Salin string pada baris ke dalam array lines
+        // Alokasi memori untuk string dan salin string ke dalam array lines
+        lines[lineCount] = malloc(strlen(buffer) + 1);
         strcpy(lines[lineCount], buffer);
         lineCount++;
     }
@@ -52,6 +45,8 @@ int main(void) {
     for (int i = lineCount - 1; i >= 0; i--) {
         // Tampilkan string pada file dengan titik, kecuali pada indeks terakhir yang diproses
         printf("%s%s", lines[i], (i == 0) ? "" : ".");
+        // Free memori yang dialokasikan
+        free(lines[i]);
     }
 
     // Tutup file setelah selesai
