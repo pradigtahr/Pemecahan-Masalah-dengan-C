@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2024-03-16T04:43:59.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="-wyTdIWoud-xQQl8qsl4" version="23.1.5" type="device">
+  <diagram name="Page-1" id="pIJavBY0yzTweW4xneVl">
+    <mxGraphModel dx="-774" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QMrcfkrz4umueREDc8aF-57" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2085" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QMrcfkrz4umueREDc8aF-58" target="QMrcfkrz4umueREDc8aF-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-67" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QMrcfkrz4umueREDc8aF-64" vertex="1" connectable="0">
+          <mxGeometry x="-0.2121" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QMrcfkrz4umueREDc8aF-58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2120" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1980" y="235" />
+              <mxPoint x="1980" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-74" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QMrcfkrz4umueREDc8aF-71" vertex="1" connectable="0">
+          <mxGeometry x="-0.2321" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-58" value="Apakah sembako_masuk != 0?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2029" y="150" width="192" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-59" value="Tampilkan total jenis sembako yang masuk" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2005" y="350" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QMrcfkrz4umueREDc8aF-60" target="QMrcfkrz4umueREDc8aF-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-69" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QMrcfkrz4umueREDc8aF-66" vertex="1" connectable="0">
+          <mxGeometry x="-0.2727" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-60" value="Apakah sembako_tolak != 0?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2029" y="460" width="192" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-62" value="Tampilkan jenis sembako yang ditolak" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2005" y="660" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QMrcfkrz4umueREDc8aF-57" target="QMrcfkrz4umueREDc8aF-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QMrcfkrz4umueREDc8aF-59" target="QMrcfkrz4umueREDc8aF-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-68" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QMrcfkrz4umueREDc8aF-65" vertex="1" connectable="0">
+          <mxGeometry x="-0.2727" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-70" value="return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="2038" y="770" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QMrcfkrz4umueREDc8aF-62" target="QMrcfkrz4umueREDc8aF-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QMrcfkrz4umueREDc8aF-60" target="QMrcfkrz4umueREDc8aF-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1980" y="545" />
+              <mxPoint x="1980" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QMrcfkrz4umueREDc8aF-75" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QMrcfkrz4umueREDc8aF-73" vertex="1" connectable="0">
+          <mxGeometry x="0.0473" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

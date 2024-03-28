@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2024-03-22T16:25:24.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="hHWv0UsnOIofM4tkEqfq" version="23.1.5" type="device">
+  <diagram name="Page-1" id="pIJavBY0yzTweW4xneVl">
+    <mxGraphModel dx="185" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dBdyuKx9wnMH7rO0jvBw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dBdyuKx9wnMH7rO0jvBw-1" target="vW94LThCsiK0B-irUPG5-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dBdyuKx9wnMH7rO0jvBw-1" value="validatePoem(arr, baris)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1215" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW94LThCsiK0B-irUPG5-1" target="vW94LThCsiK0B-irUPG5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-20" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vW94LThCsiK0B-irUPG5-17">
+          <mxGeometry x="-0.2588" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW94LThCsiK0B-irUPG5-1" target="vW94LThCsiK0B-irUPG5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-26" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vW94LThCsiK0B-irUPG5-24">
+          <mxGeometry x="-0.2157" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-1" value="Apakah jumlah baris == 1 atau == 0?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="100" width="161" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vW94LThCsiK0B-irUPG5-16" target="vW94LThCsiK0B-irUPG5-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-21" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vW94LThCsiK0B-irUPG5-19">
+          <mxGeometry x="-0.0912" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vW94LThCsiK0B-irUPG5-16" target="vW94LThCsiK0B-irUPG5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-27" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vW94LThCsiK0B-irUPG5-25">
+          <mxGeometry x="-0.2941" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-16" value="apakah nilai arr &lt;br&gt;pada indeks saat &lt;br&gt;ini &amp;lt; nilai arr &lt;br&gt;pada indeks &lt;br&gt;selanjutnya?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="280" width="161" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-22" value="return 0" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="325" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-23" value="return 1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="145" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vW94LThCsiK0B-irUPG5-28" value="return validatePoem(arr, baris-1)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
