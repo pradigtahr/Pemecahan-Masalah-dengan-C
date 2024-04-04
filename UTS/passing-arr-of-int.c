@@ -31,9 +31,6 @@ int main(void){
     // Input how much the array elements and validate it
     getNum(&n);
 
-    // Validate the number of array elements
-
-
     // Input number for each element, then
     num = getNumElements(n);
 

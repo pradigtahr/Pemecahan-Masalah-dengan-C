@@ -149,18 +149,20 @@ int main() {
     do
     {
         getChoice(&choice);
-        if (choice == 1){
-        addRow("output.txt");
-        }
-        else if (choice == 2){
+
+        switch (choice){
+        case 1:
+            addRow("output.txt");
+            break;
+        case 2:
             deleteRow("output.txt");
-        }
-        else if (choice == 3){
+            break;
+        case 3:
             printf("exit the code.");
             return 0;
-        }
-        else{
+        default:
             printf("Please input the valid value of choice!\n");
+            break;
         }
     } while (choice != 3);
     
