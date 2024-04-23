@@ -6,7 +6,7 @@ int main(void)
     Some tasks are performed more easily with pointers.
     * = indirection operator (value at address) */
 
-    int age = 21;
+    int age = 28;
     int *pAge = &age;       // Alamatnya disimpen
     *pAge = 3;              // isi dari alamat yang sudah disimpan akan diganti
 

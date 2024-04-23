@@ -1,0 +1,52 @@
+<mxfile host="Electron" modified="2024-04-11T13:40:31.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="OC-k65O5lA53gkQ1OCC2" version="23.1.5" type="device">
+  <diagram name="Page-1" id="YSA50kLtf_mbTPmVF3TX">
+    <mxGraphModel dx="880" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hjUr5dnsadDUAqM3jm_U-1" value="Pengguna" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6_Tm0QEhqi7fg2Dw-3t-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hjUr5dnsadDUAqM3jm_U-2" target="n6_Tm0QEhqi7fg2Dw-3t-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hjUr5dnsadDUAqM3jm_U-2" value="1. Assign &lt;i&gt;string&lt;/i&gt;&amp;nbsp;tiap baris pada file ke dalam array" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="530" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hjUr5dnsadDUAqM3jm_U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hjUr5dnsadDUAqM3jm_U-1" target="hjUr5dnsadDUAqM3jm_U-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hjUr5dnsadDUAqM3jm_U-5" value="Nama pemesan dan banyak pesanan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="147" width="230" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="hjUr5dnsadDUAqM3jm_U-6" value="Total tagihan tiap pemesan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="330" width="175" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="SzLIq-jevxAn7v6aPivn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.067;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hjUr5dnsadDUAqM3jm_U-1" target="hjUr5dnsadDUAqM3jm_U-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SzLIq-jevxAn7v6aPivn-2" value="File tagihan makanan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n6_Tm0QEhqi7fg2Dw-3t-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n6_Tm0QEhqi7fg2Dw-3t-1" target="n6_Tm0QEhqi7fg2Dw-3t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6_Tm0QEhqi7fg2Dw-3t-1" value="2. Pisahkan&lt;br&gt;menu, qty, dan &lt;br&gt;total pada tiap baris berdasarkan&lt;br&gt;delimitter &#39;,&#39; secara iteratif" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="810" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n6_Tm0QEhqi7fg2Dw-3t-3" value="array &lt;i&gt;konten&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="677" y="159" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n6_Tm0QEhqi7fg2Dw-3t-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n6_Tm0QEhqi7fg2Dw-3t-4" target="hjUr5dnsadDUAqM3jm_U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6_Tm0QEhqi7fg2Dw-3t-4" value="3. Menghitung total tagihan tiap pemesan berdasarkan banyak pesanan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="650" y="300" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n6_Tm0QEhqi7fg2Dw-3t-6" value="Struktur &lt;i&gt;pesanan&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="287" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

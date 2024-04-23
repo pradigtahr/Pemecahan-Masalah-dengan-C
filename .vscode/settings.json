@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "workbench.colorTheme": "One Dark Pro",
+    "files.associations": {
+        "stdio.h": "c"
+    }
+}

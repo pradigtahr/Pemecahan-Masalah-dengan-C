@@ -1,0 +1,317 @@
+<mxfile host="Electron" modified="2024-04-15T14:55:45.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="0fF_zDEuUFzRZaFEqntk" version="23.1.5" type="device">
+  <diagram name="Page-1" id="pIJavBY0yzTweW4xneVl">
+    <mxGraphModel dx="1956" dy="1271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W7F-ELKURzJoPKvlk82r-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBdyuKx9wnMH7rO0jvBw-1" target="W7F-ELKURzJoPKvlk82r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBdyuKx9wnMH7rO0jvBw-1" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-4" target="W7F-ELKURzJoPKvlk82r-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-4" value="Inisiasi struktur data mahasiswa, nim, mat, fis, kim, bio, sosio, akuntansi, opsi, idx_nim, posisi, dan nama" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="100" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-7" value="input pilihan opsi &lt;br&gt;oleh pengguna&amp;nbsp;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="260" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-9" value="Apakah opsi != 8?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="370" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-7" target="W7F-ELKURzJoPKvlk82r-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-11" target="W7F-ELKURzJoPKvlk82r-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-42" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-41">
+          <mxGeometry x="-0.048" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-11" value="Apakah opsi == 1?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="510" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-9" target="W7F-ELKURzJoPKvlk82r-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-15" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-12">
+          <mxGeometry x="-0.25" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-13" target="W7F-ELKURzJoPKvlk82r-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-53" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-52">
+          <mxGeometry x="-0.13" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-13" value="Apakah opsi == 2?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="660" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="W7F-ELKURzJoPKvlk82r-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="630" as="sourcePoint" />
+            <mxPoint x="1280" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-16" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-14">
+          <mxGeometry x="-0.4" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-21" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-14">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-17" target="W7F-ELKURzJoPKvlk82r-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-72" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-61">
+          <mxGeometry x="-0.1652" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-17" value="Apakah opsi == 3?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="810" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-13" target="W7F-ELKURzJoPKvlk82r-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-20" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-19">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-22" target="W7F-ELKURzJoPKvlk82r-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-73" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-67">
+          <mxGeometry x="-0.0484" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-22" value="Apakah opsi == 4?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="960" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-17" target="W7F-ELKURzJoPKvlk82r-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-24" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-23">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-25" value="Apakah opsi == 5?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="1110" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-22" target="W7F-ELKURzJoPKvlk82r-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-27" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-26">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-28" target="W7F-ELKURzJoPKvlk82r-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-28" value="Apakah opsi == 6?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="1260" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-25" target="W7F-ELKURzJoPKvlk82r-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-34" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-29">
+          <mxGeometry x="-0.2667" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-30" target="W7F-ELKURzJoPKvlk82r-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-30" value="Apakah opsi == 7?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="1410" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-28" target="W7F-ELKURzJoPKvlk82r-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-35" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-31">
+          <mxGeometry x="-0.1333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-32" value="Apakah opsi == 8?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1217.5" y="1560" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-30" target="W7F-ELKURzJoPKvlk82r-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-36" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-37" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-32" target="W7F-ELKURzJoPKvlk82r-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-39" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W7F-ELKURzJoPKvlk82r-38">
+          <mxGeometry x="-0.1333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-40" target="W7F-ELKURzJoPKvlk82r-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-40" value="input nama, nim, mat, fis, bio, &lt;br&gt;kim, akuntansi, sosiologi" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="540" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1760" y="240" />
+              <mxPoint x="1290" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-43" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="540" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-45" value="addStudent(&amp;amp;head, nim, nama, mat, fis, bio, kim, akuntansi, sosiologi)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="570" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-49" target="W7F-ELKURzJoPKvlk82r-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-49" value="input nama, nim, mat, fis, bio, &lt;br&gt;kim, akuntansi, sosiologi, posisi" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="690" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1880" y="735" />
+              <mxPoint x="1880" y="230" />
+              <mxPoint x="1300" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-50" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="690" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-51" value="insertStudent(&amp;amp;head, nim, nama, mat, fis, bio, kim, akuntansi, sosiologi, posisi)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="720" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-60" target="W7F-ELKURzJoPKvlk82r-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-60" value="input idx_nim untuk dicari &lt;br&gt;datanya di linked list" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="840" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1890" y="885" />
+              <mxPoint x="1890" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-62" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="840" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-63" value="searchStudent(head, idx_nim)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="870" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-66" target="W7F-ELKURzJoPKvlk82r-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-66" value="input idx_nim, mat, fis, bio, &lt;br&gt;kim,akuntansi, dan sosiologi &lt;br&gt;untuk diupdate datanya &lt;br&gt;di linked list" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="990" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1900" y="1035" />
+              <mxPoint x="1900" y="210" />
+              <mxPoint x="1320" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-68" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="990" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-69" value="updateMarks(head, idx_nim, mat, fis, bio, kim, akuntansi, sosiologi)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="1020" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-74" target="W7F-ELKURzJoPKvlk82r-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-74" value="input idx_nim untuk dihapus&lt;br&gt;datanya di linked list" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1130" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.925;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-25" target="W7F-ELKURzJoPKvlk82r-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="1175" />
+              <mxPoint x="680" y="240" />
+              <mxPoint x="1240" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-76" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1130" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-77" value="deleteStudent(&amp;amp;head, idx_nim)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="735" y="1160" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="1320" />
+              <mxPoint x="670" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-80" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1275" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-81" value="calculateAverage(&amp;amp;head)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="995" y="1305" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7F-ELKURzJoPKvlk82r-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="1470" />
+              <mxPoint x="660" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-84" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1425" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W7F-ELKURzJoPKvlk82r-85" value="calculateAverage(&amp;amp;head)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="995" y="1455" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,109 @@
+<mxfile host="Electron" modified="2024-04-11T12:20:49.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="nKrpnNsZsMt8b2HjJcAZ" version="23.1.5" type="device">
+  <diagram name="Page-1" id="pIJavBY0yzTweW4xneVl">
+    <mxGraphModel dx="250" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Muna9QnkxV_2Qp5-yft--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dBdyuKx9wnMH7rO0jvBw-1" target="Muna9QnkxV_2Qp5-yft--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBdyuKx9wnMH7rO0jvBw-1" value="Mulai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1215" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VPQM44rSCXUB25WVkZ3f-20" value="Selesai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1215" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--1" value="Deklarasi variabel: filename, fp, konten, total_baris, buffer, pesanan, pemesan, jumlah_orang, banyak_pesanan" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1153" y="100" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--3" target="Muna9QnkxV_2Qp5-yft--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--3" value="Deklarasi variabel: filename, fp, konten, total_baris, buffer, pesanan, pemesan, jumlah_orang, banyak_pesanan, i = 0." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1153" y="100" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--4" target="Muna9QnkxV_2Qp5-yft--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--4" value="Buka file dengan nama &lt;i&gt;filename&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1153" y="190" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--6" target="Muna9QnkxV_2Qp5-yft--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--6" value="Salin string pada tiap baris ke dalam array &lt;i&gt;konten &lt;/i&gt;dan hitung &lt;i&gt;total_baris&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1153" y="280" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="370" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--10" value="parsePesanan(konten, total_baris, pesanan)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="390" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--12" value="input &lt;i&gt;jumlah_orang&lt;/i&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="470" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.527;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--9" target="Muna9QnkxV_2Qp5-yft--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--14" target="Muna9QnkxV_2Qp5-yft--24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="635" />
+              <mxPoint x="1400" y="890" />
+              <mxPoint x="1275" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--27" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Muna9QnkxV_2Qp5-yft--26">
+          <mxGeometry x="-0.1794" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--14" value="Apakah i &amp;lt; jumlah_orang?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1208" y="570" width="135" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--12" target="Muna9QnkxV_2Qp5-yft--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--16" target="Muna9QnkxV_2Qp5-yft--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--16" value="input nama pemesan &lt;br&gt;dan banyak pesanan ke&lt;br&gt;dalam struktur &lt;i&gt;pemesan&lt;/i&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="730" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.523;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--14" target="Muna9QnkxV_2Qp5-yft--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--22" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Muna9QnkxV_2Qp5-yft--17">
+          <mxGeometry x="-0.2469" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1276" y="870" />
+              <mxPoint x="1130" y="870" />
+              <mxPoint x="1130" y="550" />
+              <mxPoint x="1270" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--18" value="i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1223" y="820" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="910" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--25" value="splitBill(pemesan, pesanan, jumlah_orang, total_baris, banyak_pesanan)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="930" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Muna9QnkxV_2Qp5-yft--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Muna9QnkxV_2Qp5-yft--24" target="VPQM44rSCXUB25WVkZ3f-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

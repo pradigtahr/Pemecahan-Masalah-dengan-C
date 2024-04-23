@@ -1,0 +1,119 @@
+<mxfile host="Electron" modified="2024-04-18T10:38:20.704Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="geZu-_ocqLpxExDXVb8G" version="23.1.5" type="device">
+  <diagram name="Page-1" id="pIJavBY0yzTweW4xneVl">
+    <mxGraphModel dx="617" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FFGb-5vFVpJmypS58oWW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dBdyuKx9wnMH7rO0jvBw-1" target="FFGb-5vFVpJmypS58oWW-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dBdyuKx9wnMH7rO0jvBw-1" value="updateMarks(Siswa *head, int nim, char *nama, int nilai_mat, int nilai_fis, int nilai_bio, int nilai_kim, int nilai_akuntansi, int nilai_sosiologi, int sosiologi)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="980" y="20" width="375" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGb-5vFVpJmypS58oWW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FFGb-5vFVpJmypS58oWW-2" target="FFGb-5vFVpJmypS58oWW-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGb-5vFVpJmypS58oWW-2" value="Inisiasi struktur data &lt;i&gt;Siswa&amp;nbsp;&lt;/i&gt;untuk menyimpan data-data pada linked-list" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1007" y="150" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGb-5vFVpJmypS58oWW-4" value="Inisiasi &lt;i&gt;flag&lt;/i&gt;&amp;nbsp;untuk menentukan apakah nim yang dimasukkan oleh pengguna ada atau tidak pada linked-list" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1007" y="230" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FFGb-5vFVpJmypS58oWW-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="395" />
+              <mxPoint x="1000" y="880" />
+              <mxPoint x="1150" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFGb-5vFVpJmypS58oWW-6" value="Apakah struktur data &lt;br&gt;sudah ada?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1072" y="310" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGb-5vFVpJmypS58oWW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FFGb-5vFVpJmypS58oWW-4" target="FFGb-5vFVpJmypS58oWW-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mhQebYWGPRAsgaLlQsHy-2" target="mhQebYWGPRAsgaLlQsHy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-20" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhQebYWGPRAsgaLlQsHy-6">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mhQebYWGPRAsgaLlQsHy-2" target="mhQebYWGPRAsgaLlQsHy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-22" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhQebYWGPRAsgaLlQsHy-19">
+          <mxGeometry x="-0.1538" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-2" value="Apakah data NIM dari &lt;br&gt;elemen yang sedang dicek &lt;br&gt;== nim?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1072" y="520" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FFGb-5vFVpJmypS58oWW-6" target="mhQebYWGPRAsgaLlQsHy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-4" value="found = 1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1108.5" y="820" width="117" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mhQebYWGPRAsgaLlQsHy-5" target="mhQebYWGPRAsgaLlQsHy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-5" value="Menampilkan data mahasiswa: NIM, nama, dan semua nilai mata pelajaran" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1007" y="740" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mhQebYWGPRAsgaLlQsHy-8" target="mhQebYWGPRAsgaLlQsHy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-16" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhQebYWGPRAsgaLlQsHy-11">
+          <mxGeometry x="-0.1097" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-8" value="Apakah found == 0?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1072.5" y="900" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mhQebYWGPRAsgaLlQsHy-4" target="mhQebYWGPRAsgaLlQsHy-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mhQebYWGPRAsgaLlQsHy-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1465" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-10" value="Menampilkan pesan bahwa data mahasiswa tidak ditemukan" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="960" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-12" value="return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1104.5" y="1140" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mhQebYWGPRAsgaLlQsHy-8" target="mhQebYWGPRAsgaLlQsHy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-17" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mhQebYWGPRAsgaLlQsHy-13">
+          <mxGeometry x="-0.1111" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mhQebYWGPRAsgaLlQsHy-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1465" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhQebYWGPRAsgaLlQsHy-18" value="Lanjut ke elemen linked-list selanjutnya" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="580" width="250" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

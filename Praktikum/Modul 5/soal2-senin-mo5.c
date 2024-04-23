@@ -53,10 +53,6 @@ int main(void){
 
     // Mendapatkan pemenang pemilu
     getAnggotaDPR(kader, n);
-
-
-
-
-
+    
     return 0;
 }

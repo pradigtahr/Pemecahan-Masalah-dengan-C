@@ -14,25 +14,25 @@ int main(void){
     struct node*two = NULL;
     struct node*three = NULL;
 
-    /*Alokasi memory*/
+    /*Alokasi memori*/
     one = malloc(sizeof(struct node));
     two = malloc(sizeof(struct node));
     three = malloc(sizeof(struct node));
 
-    /*Assign data values*/
+    /*Assign niai dari data*/
     one->data = 1111;
     two->data = 2222;
     three->data = 3333;
 
-    /*assign data value*/
+    /*Hubungkan node*/
     one->next = two;
     two->next = three;
     three->next = one;
 
-    /*Save address of first node in head*/
+    /*Simpan alamat dari node pertama ke dalam head*/
     head = one;
 
-    /*Traverse the linked list and print each node's data*/
+    /*Iterasi untuk menampilkan semua data pada linked list*/
     struct node *current = one;
     do {
         printf("%d ", current->data);

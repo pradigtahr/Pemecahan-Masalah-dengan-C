@@ -1,0 +1,6 @@
+3,2,
+Arkeron,Nihility,A,
+Wel Tang,Nihility,A,
+Afenturin,Preservation,B,
+Separkel,Harmony,B,
+Feijun,Destruction,A,

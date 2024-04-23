@@ -1,0 +1,77 @@
+<mxfile host="Electron" modified="2024-04-21T15:04:24.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="h5_EIRuw2UgAYpMdsAxr" version="23.1.5" type="device">
+  <diagram name="Page-1" id="YSA50kLtf_mbTPmVF3TX">
+    <mxGraphModel dx="880" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jCfhtsz2VTzlxDMfqCQI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hjUr5dnsadDUAqM3jm_U-1" target="n6_Tm0QEhqi7fg2Dw-3t-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="110" />
+              <mxPoint x="458" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hjUr5dnsadDUAqM3jm_U-1" value="Pengguna" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IgOFJfq6iX3RJZgpIIUI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n6_Tm0QEhqi7fg2Dw-3t-1" target="IgOFJfq6iX3RJZgpIIUI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n6_Tm0QEhqi7fg2Dw-3t-1" value="1. Menggabungkan semua linked list menjadi satu linked list utama" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="430" y="110" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jCfhtsz2VTzlxDMfqCQI-3" value="Jumlah linked list" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="90" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jCfhtsz2VTzlxDMfqCQI-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.379;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="hjUr5dnsadDUAqM3jm_U-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="220" as="sourcePoint" />
+            <mxPoint x="485" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="183" y="80" />
+              <mxPoint x="485" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCfhtsz2VTzlxDMfqCQI-6" value="Jumlah elemen linked list" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="57" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jCfhtsz2VTzlxDMfqCQI-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.576;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hjUr5dnsadDUAqM3jm_U-1" target="n6_Tm0QEhqi7fg2Dw-3t-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="193" y="169" as="sourcePoint" />
+            <mxPoint x="495" y="129" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="50" />
+              <mxPoint x="510" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCfhtsz2VTzlxDMfqCQI-9" value="Elemen-elemen linked list" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="21" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jCfhtsz2VTzlxDMfqCQI-11" value="Linked list yang sudah diurutkan dan dipisahkan antara bilangan ganjil dan genap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="224" y="340" width="450" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IgOFJfq6iX3RJZgpIIUI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IgOFJfq6iX3RJZgpIIUI-1" target="IgOFJfq6iX3RJZgpIIUI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IgOFJfq6iX3RJZgpIIUI-1" value="2. Mengurutkan linked &lt;br&gt;list dari data &lt;br&gt;dengan nilai yang &lt;br&gt;terkecil sampai dengan yang terbesar" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="700" y="110" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IgOFJfq6iX3RJZgpIIUI-3" value="linked list gabungan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="524" y="159" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IgOFJfq6iX3RJZgpIIUI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IgOFJfq6iX3RJZgpIIUI-6" target="hjUr5dnsadDUAqM3jm_U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IgOFJfq6iX3RJZgpIIUI-6" value="3. Memisahkan linked &lt;br&gt;list terurut membesar menjadi dua sisi: ganjil &amp;amp; genap" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IgOFJfq6iX3RJZgpIIUI-8" value="linked list gabungan terurut membesar" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="260" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

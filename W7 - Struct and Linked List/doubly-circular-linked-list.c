@@ -4,48 +4,47 @@
 struct node {
     int data;
     struct node *next;
-    struct node *prev;
+    struct node *prev; // Add a pointer to the previous node
 };
 
 int main(void){
 
-    /*Inisialisasi node*/
-    struct node*head;
-    struct node*one = NULL;
-    struct node*two = NULL;
-    struct node*three = NULL;
+    /* Inisialisasi node */
+    struct node *head = NULL;
+    struct node *one = NULL;
+    struct node *two = NULL;
+    struct node *three = NULL;
 
-    /*Alokasi memorii*/
+    /* Alokasi memori */
     one = malloc(sizeof(struct node));
     two = malloc(sizeof(struct node));
     three = malloc(sizeof(struct node));
 
-    /*Assign nilai tiap data*/
+    /* Assign nilai dari data */
     one->data = 1111;
     two->data = 2222;
     three->data = 3333;
 
-    /*Hubungkan node*/
+    /* Hubungkan node */
     one->next = two;
-    one->prev = NULL;
-
     two->next = three;
-    two->prev = one;
+    three->next = one;
 
-    three->next = NULL;
+    one->prev = three; // Hubungkan node terakhir dengan node pertama
+    two->prev = one;
     three->prev = two;
 
-    /*Simpan alamat node pertama ke dalam head*/
+    /* Simpan alamat dari node pertama ke dalam head */
     head = one;
 
-    /*Iterasi untuk menampilkan semua data pada linked list*/
+    /* Iterasi untuk menampilkan semua data pada linked list */
     struct node *current = head;
-    while (current != NULL) {
+    do {
         printf("%d ", current->data);
         current = current->next;
-    }
+    } while (current != head);
     printf("\n");
-    
+
     free(one);
     free(two);
     free(three);

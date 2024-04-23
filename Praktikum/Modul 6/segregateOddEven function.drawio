@@ -1,0 +1,195 @@
+<mxfile host="Electron" modified="2024-04-21T14:42:26.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="zw-gVLlyqd51qbf4chF2" version="23.1.5" type="device">
+  <diagram name="Page-1" id="pIJavBY0yzTweW4xneVl">
+    <mxGraphModel dx="800" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wFyywLmr7H8EhiPH5AbJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OPyiYPc7WztZuMLcyMCc-2" target="wFyywLmr7H8EhiPH5AbJ-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPyiYPc7WztZuMLcyMCc-2" value="segregateEvenOdd(Node **head)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="20" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFyywLmr7H8EhiPH5AbJ-5" value="Inisiasi struktur data &lt;i&gt;Node&lt;/i&gt;&amp;nbsp;(&lt;i&gt;h&lt;/i&gt;) yang akan menjadi linked list deret ganjil dan genap&lt;br&gt;(&lt;i&gt;Node evenStart, Node evenEnd, Node oddStart, Node oddEnd, Node currNode, Node sample&lt;/i&gt;)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="110" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-1" value="Inisiasi variabel untuk menyimpan data nilai pada elemen linked list, &lt;i&gt;val&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="380" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-2" target="MWNifAB3Hge_KzymMf0M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-2" value="Apakah elemen &lt;br&gt;currNode &lt;br&gt;saat ini ada?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="210" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wFyywLmr7H8EhiPH5AbJ-5" target="MWNifAB3Hge_KzymMf0M-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-5" value="Apakah &lt;i&gt;val&lt;/i&gt;&amp;nbsp;habis &lt;br&gt;dibagi dua?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="480" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-1" target="MWNifAB3Hge_KzymMf0M-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-9" target="MWNifAB3Hge_KzymMf0M-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-14" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWNifAB3Hge_KzymMf0M-13">
+          <mxGeometry x="-0.3072" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-9" target="MWNifAB3Hge_KzymMf0M-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-17" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWNifAB3Hge_KzymMf0M-16">
+          <mxGeometry x="-0.0769" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-9" value="Apakah linked list&lt;i&gt; evenStart &lt;/i&gt;ada?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="650" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="620" as="sourcePoint" />
+            <mxPoint x="1280" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-11" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWNifAB3Hge_KzymMf0M-10">
+          <mxGeometry x="-0.2203" y="-3" relative="1" as="geometry">
+            <mxPoint x="2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-12" target="MWNifAB3Hge_KzymMf0M-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-12" value="&lt;i&gt;Assign &lt;/i&gt;elemen sekarang ke evenStart dan evenEnd dengan NULL" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="830" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1540" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-15" value="&lt;i&gt;Assign &lt;/i&gt;elemen selanjutnya dari &lt;i&gt;evenEnd &lt;/i&gt;dengan &lt;i&gt;currNode &lt;/i&gt;dan set elemen terakhir-nya dengan NULL" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="685" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1280" y="1050" />
+              <mxPoint x="1670" y="1050" />
+              <mxPoint x="1670" y="200" />
+              <mxPoint x="1300" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-18" value="Lanjut ke elemen &lt;i&gt;head&lt;/i&gt;&amp;nbsp;selanjutnya" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="960" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270.0000000000002" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-21" value="&lt;i&gt;Assign &lt;/i&gt;elemen sekarang ke oddStart dan oddEnd dengan NULL" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="685" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-22" target="MWNifAB3Hge_KzymMf0M-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-26" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWNifAB3Hge_KzymMf0M-23">
+          <mxGeometry x="-0.2656" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-22" target="MWNifAB3Hge_KzymMf0M-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-29" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWNifAB3Hge_KzymMf0M-28">
+          <mxGeometry x="-0.0356" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-22" value="Apakah linked list&lt;i&gt;&amp;nbsp;&lt;br&gt;oddStart &lt;/i&gt;ada?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="945" y="480" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-5" target="MWNifAB3Hge_KzymMf0M-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-25" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWNifAB3Hge_KzymMf0M-24">
+          <mxGeometry x="-0.0514" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270.0000000000002" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-27" value="&lt;i&gt;Assign &lt;/i&gt;elemen selanjutnya dari odd&lt;i&gt;End &lt;/i&gt;dengan &lt;i&gt;currNode &lt;/i&gt;dan set elemen terakhir-nya dengan NULL" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="515" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-34" value="linked list tidak perlu diurutkan" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-35" target="MWNifAB3Hge_KzymMf0M-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-46" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWNifAB3Hge_KzymMf0M-37">
+          <mxGeometry x="-0.1889" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-35" target="MWNifAB3Hge_KzymMf0M-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-47" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MWNifAB3Hge_KzymMf0M-41">
+          <mxGeometry x="-0.0963" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-35" value="Apakah ada deret &lt;br&gt;ganjil / genap &lt;br&gt;pada input?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="1100" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-2" target="MWNifAB3Hge_KzymMf0M-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="280" />
+              <mxPoint x="630" y="1080" />
+              <mxPoint x="1280" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="1340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1530" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-40" value="linked list diurutkan reference-nya dengan menempatkan deret ganjil di kiri dan deret genap di kanan." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1135" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-42" value="segregateEvenOdd(Node **head)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1360" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWNifAB3Hge_KzymMf0M-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MWNifAB3Hge_KzymMf0M-34" target="MWNifAB3Hge_KzymMf0M-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
